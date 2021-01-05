@@ -1,0 +1,32 @@
+{
+  "name": "@innet/to",
+  "version": "1.0.0",
+  "description": "innet plugin to switch JSX Elements type",
+  "main": "index.js",
+  "module": "index.es6.js",
+  "jsnext:main": "index.es6.js",
+  "types": "index.d.ts",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/d8corp/innet-to.git"
+  },
+  "keywords": [
+    "innet",
+    "plugin",
+    "switch",
+    "change",
+    "type",
+    "recursive",
+    "all",
+    "front-end"
+  ],
+  "author": "Mikhail Lysikov <d8corp@mail.ru>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/d8corp/innet-to/issues"
+  },
+  "homepage": "https://github.com/d8corp/innet-to",
+  "dependencies": {
+    "innet": "^1.0.0"
+  }
+}
