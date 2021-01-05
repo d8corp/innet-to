@@ -64,3 +64,10 @@ innet((
   </>
 ), undefined, {plugins})
 ```
+
+### Issues
+If you find a bug or have a suggestion, please file an issue on [GitHub](https://github.com/d8corp/innet-to/issues).  
+[![issues](https://img.shields.io/github/issues-raw/d8corp/innet-to)](https://github.com/d8corp/innet-to/issues)
+> ---
+[![stars](https://img.shields.io/github/stars/d8corp/innet-to?style=social)](https://github.com/d8corp/innet-to/stargazers)
+[![watchers](https://img.shields.io/github/watchers/d8corp/innet-to?style=social)](https://github.com/d8corp/innet-to/watchers)
