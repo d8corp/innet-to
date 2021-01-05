@@ -1,8 +1,6 @@
 import typescript from 'rollup-plugin-typescript2'
 import pkg from './package.json'
 import {terser} from 'rollup-plugin-terser'
-// import { nodeResolve } from '@rollup/plugin-node-resolve'
-import commonjs from '@rollup/plugin-commonjs'
 
 export default [{
   input: 'src/index.ts',
@@ -12,18 +10,7 @@ export default [{
     format: 'cjs'
   },
   plugins: [
-    typescript({
-      rollupCommonJSResolveHack: false,
-      clean: true,
-      tsconfigOverride: {
-        compilerOptions: {
-          module: 'esnext'
-        },
-        include: [
-          'index.ts'
-        ]
-      }
-    })
+    typescript()
   ]
 }, {
   input: 'src/index.ts',
@@ -34,16 +21,10 @@ export default [{
   },
   plugins: [
     typescript({
-      rollupCommonJSResolveHack: false,
-      clean: true,
       tsconfigOverride: {
         compilerOptions: {
           target: 'es6',
-          module: 'esnext'
-        },
-        include: [
-          'index.ts'
-        ]
+        }
       }
     })
   ]
@@ -56,18 +37,6 @@ export default [{
     plugins: [terser()]
   },
   plugins: [
-    commonjs(),
-    typescript({
-      rollupCommonJSResolveHack: false,
-      clean: true,
-      tsconfigOverride: {
-        compilerOptions: {
-          module: 'esnext'
-        },
-        include: [
-          'index.ts'
-        ]
-      }
-    })
+    typescript()
   ]
 }]

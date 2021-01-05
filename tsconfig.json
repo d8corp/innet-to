@@ -15,7 +15,7 @@
     "allowSyntheticDefaultImports": true,
     "strict": false,
     "forceConsistentCasingInFileNames": true,
-    "module": "CommonJS",
+    "module": "esnext",
     "moduleResolution": "node",
     "resolveJsonModule": true,
     "declaration": true,
@@ -24,6 +24,6 @@
     "jsxFragmentFactory": "undefined"
   },
   "include": [
-    "src"
+    "index.ts"
   ]
 }

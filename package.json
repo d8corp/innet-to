@@ -35,10 +35,7 @@
   },
   "homepage": "https://github.com/d8corp/innet-to",
   "devDependencies": {
-    "@rollup/plugin-commonjs": "^17.0.0",
-    "@rollup/plugin-node-resolve": "^11.0.1",
     "@types/jest": "^26.0.19",
-    "@types/node": "^14.14.13",
     "core-js": "^3.8.1",
     "jest": "^26.6.3",
     "minimist": ">=0.2.1",
