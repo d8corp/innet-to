@@ -1,6 +1,6 @@
 import innet from 'innet'
-import renderElement from 'innet/renderElement'
-import getHtml from 'innet/getHtml'
+import renderElement from 'innet/utils/test/renderElement'
+import getHtml from 'innet/utils/test/getHtml'
 
 import to from '.'
 

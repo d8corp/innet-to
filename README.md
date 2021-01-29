@@ -15,7 +15,7 @@ yarn add @innet/to
 ```
 
 Or just download a minified js file
-[here](https://github.com/d8corp/innet-to/blob/master/lib/innet-to.min.js)
+[here](https://github.com/d8corp/innet-to/blob/main/lib/innet-to.min.js)
 
 ### Using
 You can change each `div` to `span`
