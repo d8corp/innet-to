@@ -7,7 +7,8 @@
 [![NPM](https://img.shields.io/npm/v/@innet/to.svg)](https://github.com/d8corp/innet-to/blob/master/CHANGELOG.md)
 [![minzipped size](https://img.shields.io/bundlephobia/minzip/@innet/to)](https://bundlephobia.com/result?p=@innet/to)
 [![downloads](https://img.shields.io/npm/dm/@innet/to.svg)](https://www.npmjs.com/package/@innet/to)
-[![license](https://img.shields.io/npm/l/@innet/to)](https://github.com/d8corp/innet-to/blob/master/LICENSE)  
+[![license](https://img.shields.io/npm/l/@innet/to)](https://github.com/d8corp/innet-to/blob/master/LICENSE)
+
 This plugin helps to change types of JSX Elements.
 
 ### Installation
