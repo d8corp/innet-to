@@ -1,5 +1,11 @@
-# @innet/to
+<img src="https://raw.githubusercontent.com/d8corp/innet/main/logo.svg" align="left" width="90" height="90" alt="InnetJs logo by Mikhail Lysikov">
+
+# &nbsp; @innet/to
+
+&nbsp;
+
 [![NPM](https://img.shields.io/npm/v/@innet/to.svg)](https://github.com/d8corp/innet-to/blob/master/CHANGELOG.md)
+[![minzipped size](https://img.shields.io/bundlephobia/minzip/@innet/to)](https://bundlephobia.com/result?p=@innet/to)
 [![downloads](https://img.shields.io/npm/dm/@innet/to.svg)](https://www.npmjs.com/package/@innet/to)
 [![license](https://img.shields.io/npm/l/@innet/to)](https://github.com/d8corp/innet-to/blob/master/LICENSE)  
 This plugin helps to change types of JSX Elements.
@@ -14,22 +20,40 @@ yarn
 yarn add @innet/to
 ```
 
-Or just download a minified js file
-[here](https://github.com/d8corp/innet-to/blob/main/lib/innet-to.min.js)
+Or you can include the scripts into the `head`.
+```html
+<!-- Dependencies (watchState, innet) -->
+<script defer src="https://unpkg.com/watch-state/watch-state.min.js"></script>
+<script defer src="https://unpkg.com/innet/innet.min.js"></script>
+
+<!-- Target (innetTo) -->
+<script defer src="https://unpkg.com/@innet/to/innet-to.min.js"></script>
+```
 
 ### Using
-You can change each `div` to `span`
+You can change each element to another.  
+For example `div` to `span`:
 ```typescript jsx
 import innet from 'innet'
 import to from '@innet/to'
+import app from './app'
 
-innet(<div><div /></div>, undefined, {
-  div: to('span')
-})
+innet(app, undefined, {div: to('span')})
+```
+`app.tsx`
+```typescript jsx
+import innet from 'innet'
+export default (
+  <div>
+    <div />
+  </div>
+)
 ```
 You will get
 ```html
-<span><span></span></span>
+<span>
+  <span></span>
+</span>
 ```
 You can use `Template` or `Component` as the argument
 ```typescript jsx

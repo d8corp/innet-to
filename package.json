@@ -1,6 +1,6 @@
 {
   "name": "@innet/to",
-  "version": "0.1.0",
+  "version": "0.2.0",
   "description": "innet plugin to switch JSX Elements type",
   "main": "index.js",
   "module": "index.es6.js",
@@ -47,6 +47,6 @@
     "typescript": "^4.1.3"
   },
   "dependencies": {
-    "innet": "^0.1.0"
+    "innet": "^0.2.1"
   }
 }
